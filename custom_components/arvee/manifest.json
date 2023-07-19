@@ -1,0 +1,13 @@
+{
+  "codeowners": ["@ThisSmartHouse"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/mikegoubeaux/hass-arvee-timezonefinderL",
+  "domain": "arvee",
+  "iot_class": "assumed_state",
+  "name": "Arvee",
+  "requirements": [
+    "timezonefinderL==4.0.2"
+  ],
+  "version": "1.1.0"
+}
