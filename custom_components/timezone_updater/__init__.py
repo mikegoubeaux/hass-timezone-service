@@ -10,8 +10,7 @@ from .const import (
     ATTR_TIMEZONE,
     ATTR_LATITUDE,
     ATTR_LONGITUDE,
-    SERVICE_SET_TIMEZONE, 
-    SERVICE_SET_TIMEZONE_GEO
+    SERVICE_SET_TIMEZONE,
 )
 
 async def async_setup(hass: core.HomeAssistant, config: dict) -> bool:
